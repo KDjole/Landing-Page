@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* HEAD */
+/* HEAD */
+/* HEAD */
+
+
+
+header{
+    background-color: #1f2937;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    padding:1rem 15%;
+    display:flex;
+    justify-content: space-between;
+}
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.logo
+{
+    font-weight: bold;
+}
+
+.links{
+    display:flex;
+    gap:1em;
+}
+
+.underHeader{
+    display:flex;
+    justify-content: center;
+    margin:5rem 15%;
+    gap:3rem;
+}
+
+.underHeader>div{
+    flex:1;
+}
+
+.welcome{
+    color:white;
+}
+
+.welcome>h1{
+    margin-bottom: 1rem;
+    font-size:48px;
+    font-weight: bolder;
+}
+
+.welcome>p{
+    line-height: 1.65rem;
+}
+
+.welcome>button{
+    margin-top: 1rem;
+    background-color: rgb(48, 132, 241);
+    padding:0.5rem;
+    border:none;
+    border-radius: 15%;
+    font-weight: bold;
+    cursor:pointer;
+    color:white;
+}
+
+
+
+/* HEAD */
+/* HEAD */
+/* HEAD */
+
+
+
+/* BODY */
+/* BODY */
+/* BODY */
