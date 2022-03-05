@@ -77,7 +77,7 @@ a, a:hover, a:visited{
     background-color: rgb(48, 132, 241);
     padding:0.5rem;
     border:none;
-    border-radius: 15%;
+    border-radius: 0.5rem;
     font-weight: bold;
     cursor:pointer;
     color:white;
@@ -89,6 +89,83 @@ a, a:hover, a:visited{
 /* HEAD */
 /* HEAD */
 
+
+
+/* BODY */
+/* BODY */
+/* BODY */
+
+.body{
+    width:100%;
+}
+
+.firstsection{
+    text-align: center;
+    margin: 5rem 15% ;
+}
+
+.firstsection>div{
+    display: flex;
+    justify-content: space-between;
+    gap:2em;
+    margin:2em;
+}
+
+.kocka{
+    display:flex;
+    flex-direction: column;
+}
+
+.kocka>div{
+    width:10rem;
+    height:10rem;
+    border-radius: 15%;
+    border:rgb(48, 132, 241) 2px solid;
+}
+
+.secondsection{
+    background-color: rgb(199, 199, 199);
+    width:100%;
+    padding:5rem 15rem;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    line-height: 2rem;
+}
+
+.autor{
+    font-size: medium;
+    font-weight: bold;
+    text-align: end;
+}
+
+
+.thirdsection{
+    background-color: rgb(48, 132, 241);
+    margin: 5rem 20%;
+    padding:5rem;
+    border-radius: 1rem;
+    color:white;
+    font-weight: bold;
+}
+
+.thirdsection>div{
+    display:flex;
+}
+
+.thirdsection>div>div{
+    flex:6 0 0;
+}
+
+.thirdsection>div>button{
+    flex:1 0 0;
+    background-color: #1f293700;
+    border-radius: 0.5rem;
+    border:white solid 2px;
+    color:white;
+    font-weight: bold;
+    padding:0.5rem;
+}
 
 
 /* BODY */
