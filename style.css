@@ -171,3 +171,30 @@ a, a:hover, a:visited{
 /* BODY */
 /* BODY */
 /* BODY */
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+
+
+footer{
+    background-color: #1f2937;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding:3rem;
+}
+
+footer>div{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
